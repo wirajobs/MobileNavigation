@@ -1,30 +1,25 @@
-AndroidTrivia - starter code
-============================
+ViewModel and ViewModelFactory - Starter Code
+==================================
 
-Starter code for Android Kotlin Fundamentals codelab 3.1: Create and add a
-fragment.
+Use as starter code for the ViewModel codelab.
 
 Introduction
 ------------
 
-The AndroidTrivia app asks the user trivia questions about Android development.
-It makes use of the navigation component within Jetpack to move the user between
-screens. Each screen is implemented as a fragment.
+This starter app is a two player game, GuessTheWord. It is a word guessing app you can play with one or more friends. To play, hold the device in landscape, facing away from you with your thumbs on the **Skip** and **Got It** buttons. Your friends can then give you clues to help you guess the word. If you get the word right, press **Got It**. If you're stuck, press **Skip**.
+You will modify the app to use Architecture components and best practices.
 
-The app navigates using buttons, the app bar, and a navigation drawer. Because
-students haven't yet learned about saving data or the Android lifecycle, the app
-tries to eliminate bugs caused by configuration changes.
-
-Prerequisites
--------------
+Pre-requisites
+--------------
 
 You need to know:
-- The fundamentals of Kotlin.
-- How to create basic Android apps in Kotlin.
-- How to open, build, and run apps with Android Studio.
-- How to work with layouts.
+- How to open, build, and run Android apps with Android Studio.
+- How to use the Navigation Architecture Component
+- Passing the data between navigation destinations.
+- Read the logs using the Logcat.
 
-Getting started
+
+Getting Started
 ---------------
 
 1. Download and run the app.
@@ -48,3 +43,4 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
+"# GuessTheWord" 
